@@ -1,9 +1,8 @@
-
 from enemy import Enemy
 
-class Goblin(Enemy):
+class boss(Enemy):
     """
-    This is our goblin blueprint 
+    This is our boss blueprint 
     
     Attributes:
         name: Awe, it has a name? How cute!
@@ -13,4 +12,5 @@ class Goblin(Enemy):
     def __init__(self, name, color):
         super().__init__(name)
         self.color = color
+        
    
